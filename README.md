@@ -18,3 +18,5 @@ Welcome to the **Magnificent Perfume Station**, your go-to online destination fo
 
 - **Customer Reviews**: Read reviews from fellow fragrance enthusiasts and leave your own to help others make informed choices.
 
+## Sample UI'
+![UI](screenshot/Capture.jpeg)
