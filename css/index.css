@@ -1,0 +1,70 @@
+* {
+    font-family: 'Rajdhani', sans-serif, ;
+
+}
+
+
+
+
+
+body {
+
+    background: url('IMAGE/background.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.background-nav {
+    background-image: url('IMAGE/NAVBAR.jpg');
+    /* Create the parallax scrolling effect */
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+.side-title {
+    font-size: 90px;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.8s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.zoom-wrapper {
+    overflow: hidden;
+
+}
+
+.zoom-wrapper {
+    object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+
+}
+
+.zoom-wrapper:hover img {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.bg-another {
+    background: #FF512F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DD2476, #FF512F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

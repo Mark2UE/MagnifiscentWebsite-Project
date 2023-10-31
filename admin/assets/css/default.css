@@ -1,0 +1,32 @@
+* {
+    font-family: 'Rajdhani', sans-serif, ;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.side-title {
+    font-size: 90px;
+}
+
+
+
+* {
+    transition: 0.5s ease;
+}
+
+
+.background-default {
+    background: url('IMAGE/background.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.bg-custom {
+    background-color: #17171792;
+}

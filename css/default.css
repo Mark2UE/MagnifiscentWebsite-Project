@@ -1,0 +1,132 @@
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0e0e0e44;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#preloader.hidden {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.background-nav {
+    background-color: #1c2331;
+}
+
+* {
+    font-family: 'Rajdhani', sans-serif, ;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.side-title {
+    font-size: 90px;
+}
+
+.customized-img {
+    width: 100%;
+    height: 400px;
+}
+
+.otto {
+    color: white;
+    text-shadow: 0 1px 0 #ccc,
+        0 2px 0 #c9c9c9,
+        0 3px 0 #bbb,
+        0 4px 0 #b9b9b9,
+        0 5px 0 #aaa,
+        0 6px 1px rgba(0, 0, 0, .1),
+        0 0 5px rgba(0, 0, 0, .1),
+        0 1px 3px rgba(0, 0, 0, .3),
+        0 3px 5px rgba(0, 0, 0, .2),
+        0 5px 10px rgba(0, 0, 0, .25),
+        0 10px 10px rgba(0, 0, 0, .2),
+        0 20px 20px rgba(0, 0, 0, .15);
+}
+
+.otto2 {
+    color: #202c2d;
+    text-shadow:
+        0 1px #808d93,
+        -1px 0 #cdd2d5,
+        -1px 2px #808d93,
+        -2px 1px #cdd2d5,
+        -2px 3px #808d93,
+        -3px 2px #cdd2d5,
+        -3px 4px #808d93,
+        -4px 3px #cdd2d5,
+        -4px 5px #808d93,
+        -5px 4px #cdd2d5,
+        -5px 6px #808d93,
+        -6px 5px #cdd2d5,
+        -6px 7px #808d93,
+        -7px 6px #cdd2d5,
+        -7px 8px #808d93,
+        -8px 7px #cdd2d5;
+}
+
+.btn-default {
+    background-color: #6351ce;
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.btn-default:hover {
+    background-color: #171717;
+    color: white;
+}
+
+* {
+    transition: 0.5s ease;
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #191533;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #6351ce;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    box-shadow: #1c1b1d 0px 20px 30px 50px;
+
+}

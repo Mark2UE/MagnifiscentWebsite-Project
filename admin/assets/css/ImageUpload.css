@@ -1,0 +1,322 @@
+.form {
+    padding: 0 16px;
+    max-width: 550px;
+    margin: 50px auto;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.btn-custom {
+    width: 200px;
+
+}
+
+.details {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 4px;
+}
+
+
+.file-upload {
+
+
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.file-upload-btn:active {
+    border: 0;
+    transition: all .2s ease;
+}
+
+/* PLACEHOLDER */
+.file-upload-preview {
+    display: none;
+    text-align: center;
+}
+
+.file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.file-upload-placeholder {
+    margin-top: 20px;
+    border: 4px dashed #ffffff;
+    position: relative;
+}
+
+.image-dropping,
+.file-upload-placeholder:hover {
+    background-color: #ffffff19;
+    border: 4px dashed #ffffff;
+}
+
+.drag-text {
+    text-align: center;
+}
+
+.drag-text h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 60px 0;
+}
+
+/* PREVIEW */
+.file-upload-image {
+    max-height: 500px;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* REMOVE */
+.file-upload-remove {
+    padding: 0 15px 15px 15px;
+    color: #222;
+}
+
+.remove-image {
+    width: 500px;
+    margin: 0;
+    color: #ffffff;
+    background: #cd4535;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.remove-image:hover {
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.remove-image:active {
+    border: 0;
+    transition: all .2s ease;
+}
+
+
+/*2
+
+.file-upload {
+
+
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.file-upload-btn:active {
+    border: 0;
+    transition: all .2s ease;
+}
+
+/* PLACEHOLDER */
+.file-upload-preview1 {
+    display: none;
+    text-align: center;
+}
+
+.file-upload-input1 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.file-upload-placeholder1 {
+    margin-top: 20px;
+    border: 4px dashed #ffffff;
+    position: relative;
+}
+
+.image-dropping1,
+.file-upload-placeholder1:hover {
+    background-color: #ffffff19;
+    border: 4px dashed #ffffff;
+}
+
+.drag-text {
+    text-align: center;
+}
+
+.drag-text h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 60px 0;
+}
+
+/* PREVIEW */
+.file-upload-image1 {
+    max-height: 500px;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* REMOVE */
+.file-upload-remove1 {
+    padding: 0 15px 15px 15px;
+    color: #ffffff;
+}
+
+.remove-image1 {
+    width: 500px;
+    margin: 0;
+    color: #ffffff;
+    background: #cd4535;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.remove-image1:hover {
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.remove-image1:active {
+    border: 0;
+    transition: all .2s ease;
+}
+
+
+
+/*2
+
+.file-upload {
+
+
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.file-upload-btn:active {
+    border: 0;
+    transition: all .2s ease;
+}
+
+/* PLACEHOLDER */
+.file-upload-preview2 {
+    display: none;
+    text-align: center;
+}
+
+.file-upload-input2 {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.file-upload-placeholder2 {
+    margin-top: 20px;
+    border: 4px dashed #ffffff;
+    position: relative;
+}
+
+.image-dropping2,
+.file-upload-placeholder2:hover {
+    background-color: #ffffff19;
+    border: 4px dashed #ffffff;
+}
+
+.drag-text {
+    text-align: center;
+}
+
+.drag-text h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 60px 0;
+}
+
+/* PREVIEW */
+.file-upload-image2 {
+    max-height: 500px;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* REMOVE */
+.file-upload-remove2 {
+    padding: 0 15px 15px 15px;
+    color: #ffffff;
+}
+
+.remove-image2 {
+    width: 500px;
+    margin: 0;
+    color: #ffffff;
+    background: #cd4535;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.remove-image2:hover {
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.remove-image2.file-upload-btn:active {
+    border: 0;
+    transition: all .2s ease;
+}
+
+
+.custom-image {
+    width: 100px;
+}
+
+.custom-image img {
+    width: 100px;
+    height: 100px;
+}
