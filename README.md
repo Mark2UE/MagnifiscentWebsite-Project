@@ -1,4 +1,4 @@
-# Welcome to Magnificent Perfume Station - Your Online Fragrance Boutique
+# MAGNIFISCENT PERFUME STATION - PROJECT
 
 ![Perfume Bottles](css/IMAGE/logo1.png)
 
