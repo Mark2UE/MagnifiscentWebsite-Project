@@ -20,3 +20,6 @@ Welcome to the **Magnificent Perfume Station**, your go-to online destination fo
 
 ## Sample UI'
 ![UI](screenshots/Capture1.JPG)
+![UI](screenshots/capture2.JPG)
+![UI](screenshots/Capture3.JPG)
+![UI](screenshots/Capture4.JPG)
